@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Authenticated</title>
+</head>
+
+<body>
+    Authenticated successfully jeje.
+
+    <script>
+        window.opener.postMessage({
+            steam_id: '<%= steam_id %>',
+            steam_name: '<%= steam_name %>',
+            url_steam: '<%= url_steam %>',
+            img_steam: '<%= img_steam %>',
+            ok: true
+        }, '<%= clientUrl %>');
+
+        window.close();
+    </script>
+</body>
+
+
+</html>

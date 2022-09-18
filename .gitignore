@@ -1,0 +1,10 @@
+# Dependency directories
+node_modules/
+
+
+
+# dotenv environment variables file
+.env
+
+#credencial environment
+ch-logindb-firebase-adminsdk-3ymue-d7146fcbc0.json
